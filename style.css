@@ -41,13 +41,25 @@ mains {
     height: 240px;
     flex-grow: 1;
     border: 3px solid black;
-    box-shadow: 5px 5px 5px #140125;
+    box-shadow: 5px 5px 5px #19022c;
+    overflow: hidden;
+    
 
 }
 .galeria-itens img{
 
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    transition: all .4s linear;
+    /*filter: grayscale(100%);*/
+    
+
+}
+.galeria-itens img:hover{
+
+    /*filter: grayscale(0%);*/
+    transform: scale(110%) rotate(1deg);
 
 }
 
