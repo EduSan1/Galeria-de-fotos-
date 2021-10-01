@@ -1,6 +1,6 @@
 # Galeria de fotos
 
- Fazar uma galeria com 8 itens utilizando o display flex, com o objetivo de aprender a usa=lo.
+ Fazar uma galeria com 8 itens utilizando o display flex, com o objetivo de aprender a usa-lo.
  
  ## Sobre o site
  
